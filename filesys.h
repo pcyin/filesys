@@ -95,7 +95,7 @@ struct Entry *curdir = NULL;
 int dirno = 0;/*代表目录的层数*/
 struct Entry* fatherdir[10];
 
-unsigned char fatbuf[512*250];  
+unsigned char *fatbuf;
 
 #endif
 
